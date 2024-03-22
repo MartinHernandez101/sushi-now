@@ -1,0 +1,21 @@
+footer {
+    bottom: 0;
+    @include size(85px, 100%);
+    @include flex(center, center);
+    background-color: nth($list: $colours, $n: 8);
+    position: fixed;
+    bottom: 0;
+}
+
+.social-media i {
+    &:hover {
+      color: nth($list: $colours, $n: 4);
+    }
+  
+    @include size(20px, 20px);
+    font-size: x-large;
+    margin: 15px 15px 15px 15px;
+    text-decoration: none;
+    color: nth($list: $colours, $n: 1);
+    transition: color 0.3s ease;
+}

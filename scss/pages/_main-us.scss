@@ -1,0 +1,14 @@
+.history-container {
+    display: flex;
+    flex-flow: wrap;
+}
+  
+.our-history {
+    color: nth($list: $colours, $n: 5);
+    text-align: left justify;
+    font-family: 'Ar One Sans', sans-serif;
+    font-weight: 400;
+    @include size(500px, 500px);
+    padding-top: 100px;
+}
+  

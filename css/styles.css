@@ -1,14 +1,14 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
     width: 100%;
-}
+} */
 
-footer {
+/* footer {
     display: flex;
     bottom: 0;
     width: 100%;
@@ -18,13 +18,13 @@ footer {
     background-color: #444444;
     position: fixed;
     bottom: 0;
-}
+} */
 
-ul {
+/* ul {
     list-style-type: none;
-}
+} */
 
-.menu-button {
+/* .menu-button {
     border: none;
     transition: all 0.3s ease;
 }
@@ -103,17 +103,17 @@ a {
     font-family: "Allan", serif;
     font-weight: 100;
     font-style: normal;
-}
+} */
 
-.subtitle {
+/* .subtitle {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     align-items: center;
     margin-left: 100px;
-}
+} */
 
-.social-media i:hover {
+/* .social-media i:hover {
     color: #ff3823;
 }
 
@@ -125,9 +125,9 @@ a {
     text-decoration: none;
     color: white;
     transition: color 0.3s ease;
-}
+} */
 
-.sub-container {
+/* .sub-container {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
@@ -136,17 +136,17 @@ a {
     height: auto;
     margin-top: 70px;
     margin-bottom: 100px;
-}
+} */
 
-.subtitle {
+/* .subtitle {
     color: #7a7a7a;
     height: auto;
     width: 100%;
-}
+} */
 
 /***** Index *****/ 
 
-.img-slider-container {
+/* .img-slider-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -193,13 +193,13 @@ a {
     height: auto;
     margin-right: 40px;
     margin-bottom: 60px;
-}
+} */
 
 /***** End Index *****/
 
 /***** Menu *****/ 
 
-.menu-item {
+/* .menu-item {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -289,13 +289,13 @@ a {
 .menu-small p {
     display: inline-block;
     margin-left: 15px;
-}
+} */
 
 /***** End Menu *****/
 
 /***** Services *****/
 
-.card {
+/* .card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,13 +346,13 @@ a {
     color: #000000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     transform: translateY(-3px);
-}
+} */
 
 /***** End Services *****/
 
 /***** Us *****/
 
-.history-container {
+/* .history-container {
     display: flex;
     flex-flow: wrap;
 }
@@ -365,13 +365,13 @@ a {
     height: 500px;
     width: 500px;
     padding-top: 100px;
-}
+} */
 
 /***** End Us *****/
 
 /***** Contact *****/
 
-.contact-form {
+/* .contact-form {
     display: flex;
     flex-flow: wrap column;
     margin-right: 100px;
@@ -433,13 +433,13 @@ a {
 .contact-map iframe {
     border-radius: 10px;
     margin: 15px 0 15px 0;
-}
+} */
 
 /***** End Contact *****/
 
 /***** Media queries *****/
 
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
     .home-img-slider img {
         width: auto;
         height: 500px;
@@ -538,7 +538,7 @@ a {
         margin-right: 0;
         width: 300px;
     }
-}
+} */
 
 
 /***** End Media Queries *****/

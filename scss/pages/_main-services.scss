@@ -1,0 +1,50 @@
+.card {
+    @include flex(center, center);
+    flex-flow: wrap column;
+    background-color: nth($list: $colours, $n: 3);
+    margin: 20px;
+    border-radius: 15px;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: all 0.4s ease;
+  
+    &:hover {
+      transform: scale(1.02);
+    }
+  
+    img {
+      border-radius: 10px 10px 0 0;
+      @include size(200px, auto);
+      margin: 15px;
+    }
+  
+    h3 {
+      text-align: center;
+      margin-top: 10px;
+      font-family: "AR One Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
+    a {
+      text-align: center;
+      font-family: 'Ar One Sans', sans-serif;
+      font-weight: 400;
+      margin: 0;
+      background-color: nth($list: $colours, $n: 4);
+      color: nth($list: $colours, $n: 1);
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 100%;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+      transition: all 0.3s ease;
+  
+      &:hover {
+        color: nth($list: $colours, $n: 2);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        transform: translateY(-3px);
+      }
+    }
+}
+  

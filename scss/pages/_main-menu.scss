@@ -1,0 +1,85 @@
+.menu-item {
+    flex-wrap: wrap;
+    width: 100%;
+    @include flex(center, end);
+    margin-bottom: 50px;
+}
+  
+.menu-large {
+    display: flex;
+    flex-wrap: wrap;
+  
+    img {
+      border-radius: 50px;
+      @include size(auto, 600px);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+  
+    h3 {
+      font-family: 'Allan', sans-serif;
+      font-size: 20px;
+    }
+  
+    ul {
+      font-family: "AR One Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+}
+  
+.menu-description {
+    @include flex(start, start);
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+  
+.first-item {
+    font-weight: 700;
+    color: nth($list: $colours, $n: 8);
+}
+  
+.menu-price {
+    display: flex;
+    flex-direction: column;
+  
+    p {
+      margin-top: 100px;
+      font-family: "AR One Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    }
+  
+    img {
+      @include size(auto, 100px);
+    }
+}
+  
+.menu-small {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: "AR One Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    margin-top: 50px;
+  
+    li {
+      display: flex;
+      align-items: center;
+    }
+  
+    img {
+      margin: 0 0 10px 10px;
+    }
+  
+    p {
+      display: inline-block;
+      margin-left: 15px;
+    }
+}

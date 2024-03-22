@@ -1,0 +1,102 @@
+@media screen and (max-width: 1024px) {
+    .home-img-slider {
+      img {
+        @include size(500px, auto);
+      }
+    }
+  
+    .our-history {
+      @include size(auto, auto);
+      padding: 20px;
+      text-align: justify;
+  
+      p {
+        font-size: x-large;
+      }
+  
+      img {
+        align-items: end;
+      }
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .brand { 
+      h1 {
+        font-size: 30px;
+        font-weight: 200;
+      }
+    }
+    .home-img-slider {
+      img {
+        @include size(200px, auto);
+        margin-top: 50px;
+      }
+    }
+  
+    .nav-menu {
+      position: absolute;
+      top: 100px;
+      right: 0;
+      width: 50%;
+      background-color: nth($list: $colours, $n: 1);
+      z-index: 3;
+  
+      ul {
+        align-items: end;
+        padding-right: 30px;
+      }
+    }
+  
+    .home-kanji { 
+      img {
+        @include size(auto, 100px);
+      }
+    }
+  
+    .sub-container {
+      margin-top: 20px;
+    }
+  
+    .menu-large {
+      padding-left: 10px;
+      img {
+        @include size(auto, 350px);
+      }
+    }
+  
+    .menu-price {
+      justify-content: end;
+      p {
+        margin-top: 10px;
+      }
+    }
+  
+    .subtitle {
+      margin-left: 10px;
+    }
+  
+    .menu-small {
+      align-items: start;
+      justify-content: start;
+      margin-bottom: 100px;
+    }
+  
+    .our-history {
+      @include size(auto, auto);
+      padding: 20px;
+      text-align: justify;
+    }
+  
+    .contact-map {
+      iframe {
+        width: 300px;
+      }
+    }
+  
+    .contact-form {
+      margin-right: 0;
+      width: 300px;
+    }
+}
+  

@@ -1,0 +1,38 @@
+.img-slider-container {
+    flex-wrap: wrap;
+    @include flex(center, center);
+}
+  
+.home-img-slider {
+    flex-wrap: wrap;
+    @include flex(center, center);
+  
+    img {
+      @include size(400px, auto);
+      margin-top: 50px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+}
+  
+.home-kanji {
+    @include size(min-content, min-content);
+    flex-direction: column;
+    @include flex(center, stretch);
+  
+    img {
+      @include size(100px, auto);
+      padding-left: 15px;
+      align-self: flex-start;
+    }
+}
+  
+.shinto-tori {
+    @include flex(right, stretch);
+  
+    img {
+      @include size(auto, 70px);
+      margin-right: 40px;
+      margin-bottom: 60px;
+    }
+}

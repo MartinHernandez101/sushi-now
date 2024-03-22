@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sub-container {
+    flex-flow: wrap;
+    @include flex(center, center);
+    @include size(auto, 100%);
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.subtitle {
+    color: nth($list: $colours, $n: 5);
+    @include size(auto, 100%);
+    @include flex(left, center);
+    margin-left: 100px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,79 @@
+.menu-button {
+    border: none;
+    transition: all 0.3s ease;
+  
+    &:focus {
+      box-shadow: none;
+    }
+  
+    &:active {
+      transform: rotate(90deg);
+    }
+}
+  
+.nav-menu {
+    flex-grow: 0;
+  
+    ul li a {
+      font-family: "Allan", serif;
+      font-size: 18px;
+      font-weight: 500;
+      font-style: normal;
+      display: inline-block;
+      text-decoration: none;
+      color: nth($list: $colours, $n: 6);
+      transition: all 0.3s ease;
+  
+      &:hover {
+        color: nth($list: $colours, $n: 4);
+        transform: translateY(5px);
+      }
+    }
+}
+  
+nav {
+    background-color: nth($list: $colours, $n: 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+  
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: nth($list: $colours, $n: 6);
+}
+  
+.brand {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+  
+    h1 {
+      margin-left: 10px;
+      font-weight: 200;
+      transition: all 0.3s ease;
+  
+      &:hover {
+        cursor: pointer;
+        color: nth($list: $colours, $n: 4);
+        transform: translateX(5px);
+      }
+    }
+}
+  
+.logo {
+    @include flex(center, center);
+  
+    img {
+      height: 60px;
+    }
+  
+    font-family: "Allan", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.subtitle, .brand, a {
+    font-family: "Allan", serif;
+    font-weight: 100;
+    font-style: normal;
+}
